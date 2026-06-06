@@ -16,6 +16,11 @@ await page.waitForTimeout(5000); por isso demorou 25 segundos
 <img width="986" height="231" alt="image" src="https://github.com/user-attachments/assets/85a71e40-e99c-4002-b6f8-a73ec25179de" />
 
 
+<img width="1053" height="506" alt="image" src="https://github.com/user-attachments/assets/be920f64-379d-48e7-9561-7f6e9178f412" />
+<img width="1370" height="516" alt="image" src="https://github.com/user-attachments/assets/08d7b6ab-f445-4e36-9d78-89b331c4b060" />
+
+
+
 ## Instruções para Execução do Sistema e Testes Automatizados
 
 ## 1. Pré-requisitos do Sistema Web
