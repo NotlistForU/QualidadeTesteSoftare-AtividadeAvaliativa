@@ -44,4 +44,5 @@ await page.waitForTimeout(5000); por isso demorou 25 segundos
 5. Para rodar o fluxo completo do cliente, acesse o arquivo fluxo-completo-cliente.spec.js, descomente as linhas de codigo // test.use({ launchOptions: { slowMo: 2000 } }); e // await page.waitForTimeout(5000);
 e rode o comando:
 ```bash
-  npx playwright test tests/fluxo-completo-cliente.spec.js --headed
+   npx playwright test tests/fluxo-completo-cliente.spec.js --headed
+```
