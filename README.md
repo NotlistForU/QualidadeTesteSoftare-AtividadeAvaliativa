@@ -8,4 +8,7 @@ Atividade Avaliativa Qualidade & Teste de Software
 <img width="996" height="773" alt="image" src="https://github.com/user-attachments/assets/a8c4d4de-0382-4f2c-ae47-5a9f01546edb" />
 <img width="990" height="413" alt="image" src="https://github.com/user-attachments/assets/0055ce53-758f-44a7-a93e-62d4caaa7deb" />
 <img width="994" height="413" alt="image" src="https://github.com/user-attachments/assets/2f5d3c17-731c-40e2-b078-8c11e3683b26" />
+test.use({ launchOptions: { slowMo: 2000 } }); para deixar visivel cada passo 
+e
+await page.waitForTimeout(5000); por isso demorou 25 segundos
 <img width="986" height="231" alt="image" src="https://github.com/user-attachments/assets/85a71e40-e99c-4002-b6f8-a73ec25179de" />
