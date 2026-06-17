@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const BASE_URL = 'http://localhost/Concessionaria-PCGM/public/index.php';
+const BASE_URL = 'http://localhost/Concessionaria-PCGMV/public/index.php';
 
 test('CT04 - deve agendar Test Drive com sucesso', async ({ page }) => {
 

@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-const BASE_URL = 'http://localhost/Concessionaria-PCGM/public/index.php';
+const BASE_URL = 'http://localhost/Concessionaria-PCGMV/public/index.php';
 
 test('CT10 - não deve autenticar com SQL Injection', async ({ page }) => {
     await page.goto(`${BASE_URL}?pagina=login`);

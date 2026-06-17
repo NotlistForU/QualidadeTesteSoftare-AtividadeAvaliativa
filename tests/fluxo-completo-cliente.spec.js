@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 // test.use({ launchOptions: { slowMo: 2000 } });
 
-const BASE_URL = 'http://localhost/Concessionaria-PCGM/public/index.php';
+const BASE_URL = 'http://localhost/Concessionaria-PCGMV/public/index.php';
 
 test('CT12 - Fluxo completo cliente', async ({page}) => {
     await page.goto(`${BASE_URL}?pagina=home`);
