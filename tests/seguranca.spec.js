@@ -14,6 +14,8 @@ test('CT10 - não deve autenticar com SQL Injection', async ({ page }) => {
     await page.getByRole('button', {
         name: 'Entrar no Sistema'
     }).click();
+    
+    await expect(page).toHaveURL(/erro_login=1/);
 
     await expect(page.locator('body'))
         .toContainText('Login incorreto');
